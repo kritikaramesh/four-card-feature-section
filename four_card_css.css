@@ -1,38 +1,17 @@
-#first {
-  padding: 5% 15%;
-  text-align: center;
-  background-color: hsl(0,0%,98%);
-}
-
-#para1 {
-  width: 48%;
-  margin: 20px auto auto;
-}
-
-#second{
-  padding: 100px;
-  background-color: hsl(0,0%,98%);
-}
-
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.5;
-  margin: 0;
-  padding: 0;
 }
 
-h1 {
-  color: hsl(234, 12%, 34%);
-  font-weight: 600;
+#first {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
 }
 
-p {
-  color: hsl(229, 6%, 66%);
-  font-weight: 400;
-}
-
-img{
-  padding: 20% 5% 5% 80%;
+#second {
+  background-color: #f2f2f2;
+  padding: 40px;
 }
 
 .top {
@@ -41,12 +20,47 @@ img{
   font-size: 2.5rem;
 }
 
+h1 {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+}
+
+#para1 {
+  width: 48%;
+  margin: 20px auto auto;
+}
+
+h3 {
+  color: hsl(234, 12%, 34%);
+  padding: 10px;
+}
+
+.box {
+  background-color: #f7f7f7;
+  width: 400px;
+  height: 300px;
+  box-shadow: 5px 8px #888888;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+img {
+  padding: 20% 5% 5% 80%;
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+  font-weight: 400;
+  padding: 10px;
+}
+
 .box1 {
   border-top: 4px solid hsl(180, 62%, 55%);
 }
 
 .box2 {
   border-top: 4px solid hsl(0, 78%, 62%);
+  margin-bottom: 40px;
 }
 
 .box3 {
@@ -57,34 +71,49 @@ img{
   border-top: 4px solid hsl(34, 97%, 64%);
 }
 
-.card{
-  background-color: hsl(0,0%,98%);
-  width: 400px;
-  height: 300px;
-  margin: 0;
-  box-shadow: 5px 10px hsl(0,0%,89%);
+.c1 {
+  padding: 150px 0 0 40px;
 }
 
-.card-header{
-  color: hsl(234, 12%, 34%);
-  background-color: hsl(0,0%,98%);
-  font-weight: 600;
-  border: none;
-  padding: 25px 12px 12px 30px;
+.c2 {
+  padding: 0 20px 0;
 }
 
-.card-body{
-  padding: 0 20px 20px 30px;
+.c3 {
+  padding: 150px 40px 0 0;
 }
 
-.c1{
-  margin: 40% 2% 40% 5%;
+.r {
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
-.c2{
-  margin: 5% 3%;
-}
+@media (max-width: 900px) {
 
-.c3{
-  margin: 40% 5% 40% 2%;
+  .top{
+    padding-bottom: 0;
+    font-size: 30px;
+  }
+
+  h1{
+    font-size: 35px;
+  }
+
+  #para1 {
+    width: 75%;
+    margin: 20px auto auto;
+  }
+
+  #second {
+    padding: 0;
+  }
+
+  .c1, .c3 {
+    padding: 20px 25px;
+  }
+
+  .c2 {
+    padding: 0 25px;
+  }
+
 }
