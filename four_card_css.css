@@ -3,15 +3,11 @@ body {
   line-height: 1.5;
 }
 
+/* First-Section */
 #first {
   background-color: #f2f2f2;
   text-align: center;
   padding: 20px;
-}
-
-#second {
-  background-color: #f2f2f2;
-  padding: 40px;
 }
 
 .top {
@@ -20,9 +16,10 @@ body {
   font-size: 2.5rem;
 }
 
-h1 {
-  color: hsl(234, 12%, 34%);
-  font-weight: 600;
+p {
+  color: hsl(229, 6%, 66%);
+  font-weight: 400;
+  padding: 10px;
 }
 
 #para1 {
@@ -30,11 +27,24 @@ h1 {
   margin: 20px auto auto;
 }
 
+/* Second-Section */
+#second {
+  background-color: #f2f2f2;
+  padding: 40px;
+}
+
+/* Headings */
+h1 {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+}
+
 h3 {
   color: hsl(234, 12%, 34%);
   padding: 10px;
 }
 
+/* Boxes */
 .box {
   background-color: #f7f7f7;
   width: 400px;
@@ -42,16 +52,6 @@ h3 {
   box-shadow: 5px 8px #888888;
   margin: 10px;
   border-radius: 8px;
-}
-
-img {
-  padding: 20% 5% 5% 80%;
-}
-
-p {
-  color: hsl(229, 6%, 66%);
-  font-weight: 400;
-  padding: 10px;
 }
 
 .box1 {
@@ -70,7 +70,12 @@ p {
 .box4 {
   border-top: 4px solid hsl(34, 97%, 64%);
 }
+/* Image */
+img {
+  padding: 1rem 0 0 18rem;
+}
 
+/* Column */
 .c1 {
   padding: 150px 0 0 40px;
 }
@@ -83,13 +88,15 @@ p {
   padding: 150px 40px 0 0;
 }
 
+/* Row */
 .r {
   margin-right: 0px;
   margin-left: 0px;
 }
 
+/* Mobile-Website */
 @media (max-width: 900px) {
-
+  /* First-Section */
   .top{
     padding-bottom: 0;
     font-size: 30px;
@@ -104,10 +111,11 @@ p {
     margin: 20px auto auto;
   }
 
+  /* Second-Section */
   #second {
     padding: 0;
   }
-
+  /* Columns */
   .c1, .c3 {
     padding: 20px 25px;
   }
